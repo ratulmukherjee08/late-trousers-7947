@@ -4,15 +4,15 @@ const UpperNav=()=>{
 return(
 <div>
 
-<Flex color='white' w="97%" h="90px" m="auto">
+<Flex color='white' w="95%" h="50px" m="auto">
   <Box flex='1' bg='black'>
-   <Center> <Text fontSize="25px" margin="20px">CAR CARE IS EVEN MORE COMPLETE WITH THE MY GARAGE CAR SERVICE APP</Text> </Center>
+   <Center> <Text fontSize="22px" align="center"margin="5px">CAR CARE IS EVEN MORE COMPLETE WITH THE MY GARAGE CAR SERVICE APP</Text> </Center>
   </Box>
   <Box flex='0.5' bg='red'>
-    <Text fontSize="25px" margin="20px">SHOP FOR TIRES</Text> 
+    <Text fontSize="22px" align="center"margin="5px">SHOP FOR TIRES</Text> 
   </Box>
   <Box flex='' bg='red'>
-    <Button colorScheme='white' variant='outline' margin="20px">GET THE APP</Button>
+    <Button colorScheme='white' variant='outline' margin="5px">GET THE APP</Button>
   </Box>
 </Flex>
 </div>
